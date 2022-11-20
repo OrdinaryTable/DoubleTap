@@ -1,0 +1,14 @@
+{
+  "$schema": "https://raw.githubusercontent.com/bsmg/BSIPA-MetadataFileSchema/master/Schema.json",
+  "id": "DoubleTap",
+  "name": "DoubleTap",
+  "author": "OrdinaryTable",
+  "version": "1.0.0",
+  "description": "Forces you to double tap in order to exit/restart songs",
+  "gameVersion": "1.26.0",
+  "dependsOn": {
+    "BSIPA": "^4.2.0",
+    "BeatSaberMarkupLanguage": "^1.6.0",
+    "SiraUtil": "^3.1.0"
+  }
+}

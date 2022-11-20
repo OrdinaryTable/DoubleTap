@@ -1,0 +1,9 @@
+﻿<settings-container xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:noNamespaceSchemaLocation='https://raw.githubusercontent.com/monkeymanboy/BSML-Docs/gh-pages/BSMLSchema.xsd'>
+    <macro.as-host host="_config">
+        <bool-setting text="Enabled" value="Enabled" apply-on-change="true" />
+        <increment-setting text="Threshold" value="Threshold" min="0.1" max="1" increment="0.1" formatter="MsFormatter"
+                           hover-hint="The maximum time difference in which the second press must occur"
+                           apply-on-change="true"
+        />
+    </macro.as-host>
+</settings-container>
